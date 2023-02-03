@@ -3,7 +3,8 @@
         "destination": "elasticube"
     },
     "datasets": [
-        "./26db6af1-2ba2-4813-9bf4-540175090ce5/dataset.json"
+        "./26db6af1-2ba2-4813-9bf4-540175090ce5/dataset.json",
+        "./ba72d59e-9bf1-41cc-8a22-55ec3dc05f4f/dataset.json"
     ],
     "experiments": {
     },

@@ -1,0 +1,81 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "309c7cd0-da2f-4cac-a4b8-255fd1681c56",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ID",
+            "oid": "a1f5d82b-e6f2-48f9-9c07-dbe016fe1dcb",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "b119ae32-225c-4044-8599-9f808fb2a0b4",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "NAME",
+            "oid": "a05f5e26-3efe-45cc-bfde-08de77b9e5e9",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ec72053e-890e-4636-88fb-3f038e426aef",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "AMOUNT",
+            "oid": "006e2d57-a1aa-41db-a195-b97e9c886b31",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "3ee3b77a-0bf5-4866-bf45-b19d2d101a9d",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED_ON",
+            "oid": "60b512d4-46b4-402a-8b15-609a612b0b70",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        },
+        {
+            "hidden": false,
+            "id": "7f9af4e6-ab5b-45b9-a5aa-d71f7a300134",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "UPDATED_ON",
+            "oid": "b20201ae-c978-4bb1-9793-b7fd5ac23172",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        }
+    ],
+    "dataset": "ba72d59e-9bf1-41cc-8a22-55ec3dc05f4f",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "5f07fc9c-cbf0-4a79-83ce-eb0ec2f9e7c4"
+    },
+    "hidden": false,
+    "id": "New Custom Table",
+    "isMaterialized": null,
+    "name": "New Custom Table",
+    "oid": "919674cb-22cd-4b9f-8308-f4289015fd56",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}
