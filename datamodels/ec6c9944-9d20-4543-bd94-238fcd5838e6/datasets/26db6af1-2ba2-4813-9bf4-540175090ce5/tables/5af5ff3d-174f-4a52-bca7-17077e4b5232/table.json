@@ -1,0 +1,77 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ID",
+            "oid": "a2507a03-8bbc-463d-9332-76cb7010e46d",
+            "precision": 38,
+            "scale": 0,
+            "size": 39,
+            "type": 41
+        },
+        {
+            "hidden": false,
+            "id": "NAME",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "NAME",
+            "oid": "4a6d3e08-5138-4a25-beba-3e1eedcdc95e",
+            "precision": 30,
+            "scale": 0,
+            "size": 30,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "AMOUNT",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "AMOUNT",
+            "oid": "8f21f229-5ead-4ca9-a369-663678deec03",
+            "precision": 38,
+            "scale": 0,
+            "size": 39,
+            "type": 41
+        },
+        {
+            "hidden": false,
+            "id": "CREATED_ON",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED_ON",
+            "oid": "f4ca3f0d-0363-48bb-bef1-6499cf78d147",
+            "precision": 11,
+            "scale": 6,
+            "size": 50,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "UPDATED_ON",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "UPDATED_ON",
+            "oid": "ac9de4a9-df99-4d84-b25d-b6ff153b160f",
+            "precision": 11,
+            "scale": 6,
+            "size": 50,
+            "type": 4
+        }
+    ],
+    "dataset": "26db6af1-2ba2-4813-9bf4-540175090ce5",
+    "hidden": false,
+    "id": "FACT_SALES",
+    "isMaterialized": false,
+    "name": "FACT_SALES",
+    "oid": "5af5ff3d-174f-4a52-bca7-17077e4b5232",
+    "schemaName": "TEST",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

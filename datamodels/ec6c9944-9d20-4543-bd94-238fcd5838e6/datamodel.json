@@ -1,0 +1,18 @@
+{
+    "buildDestination": {
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./26db6af1-2ba2-4813-9bf4-540175090ce5/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": "2023-02-03T15:47:19.749Z",
+    "oid": "ec6c9944-9d20-4543-bd94-238fcd5838e6",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "schemaId": null,
+    "title": "Nasdaq_test",
+    "type": "extract"
+}
