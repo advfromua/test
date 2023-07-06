@@ -9,6 +9,8 @@
         "title": "Sample ECommerce"
     },
     "desc": "",
+    "filterRelations": [
+    ],
     "filters": "./filters.json",
     "hierarchies": [
     ],
