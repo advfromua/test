@@ -1,0 +1,90 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "64a6f63ac4014500292e7b60",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+    },
+    "desc": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Commerce.Condition]",
+                            "index": 0
+                        },
+                        "format": {
+                            "members": {
+                            }
+                        },
+                        "instanceid": "D6060-21BB-83",
+                        "jaql": {
+                            "column": "Condition",
+                            "datatype": "text",
+                            "dim": "[Commerce.Condition]",
+                            "merged": true,
+                            "table": "Commerce",
+                            "title": "Condition"
+                        }
+                    }
+                ],
+                "name": "categories"
+            },
+            {
+                "items": [
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "64a6f646c4014500292e7b62",
+    "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "direction": "regular",
+        "labels": {
+            "categories": true,
+            "decimals": false,
+            "enabled": true,
+            "percent": true,
+            "value": true
+        },
+        "legend": {
+            "enabled": false,
+            "position": "left"
+        },
+        "size": "regular",
+        "type": "regular"
+    },
+    "subtype": "chart/funnel",
+    "title": "",
+    "type": "chart/funnel"
+}

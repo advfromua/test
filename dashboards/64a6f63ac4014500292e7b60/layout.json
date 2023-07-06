@@ -1,0 +1,75 @@
+{
+    "layout": {
+        "columns": [
+            {
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 512,
+                                        "maxHeight": 1024,
+                                        "maxWidth": 2048,
+                                        "minHeight": 102,
+                                        "minWidth": 128,
+                                        "widgetid": "64a6f646c4014500292e7b62"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "width": 100
+            }
+        ],
+        "container": {
+        },
+        "instanceid": "AEA20-E6CB-50",
+        "type": "columnar"
+    },
+    "previewLayout": [
+        {
+            "elasticubeBuilt": true,
+            "elasticubeName": true,
+            "filters": true,
+            "format": "A4",
+            "headerSize": "compact",
+            "layout": "asis",
+            "logo": false,
+            "openPath": "PDF Settings",
+            "orientation": "portrait",
+            "pageNumbers": true,
+            "pages": [
+                {
+                    "columns": [
+                        {
+                            "cells": [
+                                {
+                                    "subcells": [
+                                        {
+                                            "elements": [
+                                                {
+                                                    "height": 554,
+                                                    "maxHeight": 1024,
+                                                    "minHeight": 102,
+                                                    "widgetid": "64a6f646c4014500292e7b62"
+                                                }
+                                            ],
+                                            "width": 100
+                                        }
+                                    ]
+                                }
+                            ],
+                            "width": 100
+                        }
+                    ]
+                }
+            ],
+            "savedByButton": "Export",
+            "title": true,
+            "type": "previewLayout"
+        }
+    ]
+}
