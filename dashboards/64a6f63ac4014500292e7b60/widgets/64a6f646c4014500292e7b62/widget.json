@@ -67,7 +67,6 @@
         "dashboardFiltersMode": "filter",
         "selector": false
     },
-    "realTimeRefreshing": false,
     "style": {
         "direction": "regular",
         "labels": {

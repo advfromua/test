@@ -1,0 +1,102 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "sql_language_source",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "sql_language_source",
+            "oid": "036fb060-c55c-4a1f-9aec-ed56d3ff3805",
+            "precision": 2147483647,
+            "scale": 0,
+            "size": 2147483647,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "sql_language_year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "sql_language_year",
+            "oid": "d70b160f-7fc5-4d59-be5d-21af2b23e5ee",
+            "precision": 2147483647,
+            "scale": 0,
+            "size": 2147483647,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "sql_language_conformance",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "sql_language_conformance",
+            "oid": "3ef05ab1-bb55-48a0-9217-aea0a4919808",
+            "precision": 2147483647,
+            "scale": 0,
+            "size": 2147483647,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "sql_language_integrity",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "sql_language_integrity",
+            "oid": "6edd1257-53d4-487f-a0f5-448b8d1760d0",
+            "precision": 2147483647,
+            "scale": 0,
+            "size": 2147483647,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "sql_language_implementation",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "sql_language_implementation",
+            "oid": "4d47dea5-54d4-4caa-87fe-1d53b875c77b",
+            "precision": 2147483647,
+            "scale": 0,
+            "size": 2147483647,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "sql_language_binding_style",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "sql_language_binding_style",
+            "oid": "e57c53fb-74bb-4c22-a2e3-b6771c5c24dd",
+            "precision": 2147483647,
+            "scale": 0,
+            "size": 2147483647,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "sql_language_programming_language",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "sql_language_programming_language",
+            "oid": "d94e220c-4431-4fdf-bbd7-2a8cde057c2a",
+            "precision": 2147483647,
+            "scale": 0,
+            "size": 2147483647,
+            "type": 18
+        }
+    ],
+    "dataset": "b9ab03fd-d8ec-4124-bbe2-40f30e5667eb",
+    "hidden": false,
+    "id": "sql_languages",
+    "isMaterialized": false,
+    "name": "sql_languages",
+    "oid": "b4d859de-2f1d-48ea-b6de-c49a13957fd7",
+    "schemaName": "information_schema",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

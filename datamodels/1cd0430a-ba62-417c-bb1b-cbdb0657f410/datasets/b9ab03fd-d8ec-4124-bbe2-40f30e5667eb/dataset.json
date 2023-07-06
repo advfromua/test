@@ -1,0 +1,11 @@
+{
+    "connection": "./connection.json",
+    "database": "AV_test",
+    "elasticube": "1cd0430a-ba62-417c-bb1b-cbdb0657f410",
+    "oid": "b9ab03fd-d8ec-4124-bbe2-40f30e5667eb",
+    "schemaName": "information_schema",
+    "tables": [
+        "./b4d859de-2f1d-48ea-b6de-c49a13957fd7/table.json"
+    ],
+    "type": "extract"
+}

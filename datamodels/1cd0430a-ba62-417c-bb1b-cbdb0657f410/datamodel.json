@@ -1,0 +1,25 @@
+{
+    "buildDestination": {
+        "database": null,
+        "destination": "elasticube",
+        "schema": null
+    },
+    "datasets": [
+        "./b9ab03fd-d8ec-4124-bbe2-40f30e5667eb/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": "2023-07-06T13:10:09.760Z",
+    "modelStatistics": {
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "1cd0430a-ba62-417c-bb1b-cbdb0657f410",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "schemaId": null,
+    "title": "AV_PostgreSQLTest",
+    "type": "extract"
+}
