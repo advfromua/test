@@ -1,0 +1,185 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "CONSTRAINT_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONSTRAINT_CATALOG",
+            "oid": "af461e29-77f0-42e2-a807-dba6d58c3179",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CONSTRAINT_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONSTRAINT_SCHEMA",
+            "oid": "d12e2d63-981c-4251-84cf-7920af9eefca",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CONSTRAINT_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONSTRAINT_NAME",
+            "oid": "5aade64e-db4e-4a32-bdbb-1c1c57613149",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_CATALOG",
+            "oid": "370367a7-addc-446b-9d63-a4fc340424d2",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_SCHEMA",
+            "oid": "3482d446-d63b-45a4-96a4-b9d8fd19b840",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_NAME",
+            "oid": "e3e1a977-98ca-463c-99e3-280fcc7e6ff4",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CONSTRAINT_TYPE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONSTRAINT_TYPE",
+            "oid": "e812a83f-1513-4f48-b5a4-669d6a65556c",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_DEFERRABLE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_DEFERRABLE",
+            "oid": "2b935911-3437-4fa1-bc85-505e7f9432ce",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "INITIALLY_DEFERRED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "INITIALLY_DEFERRED",
+            "oid": "d4ebda8c-7b22-48a6-a8a9-c12637dfde93",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ENFORCED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ENFORCED",
+            "oid": "7812f46e-f9b0-44ad-93bc-02d66664f830",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "64567a06-0f7a-4a46-bb52-40098ee15a4e",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "631ec8ae-61bf-48fc-946c-4b4d4830b008",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_ALTERED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_ALTERED",
+            "oid": "776b3e1f-c276-4ee0-95bb-2accc8985ca4",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "RELY",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "RELY",
+            "oid": "6c8124c6-145d-4d41-8179-d42a2d7331a0",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        }
+    ],
+    "dataset": "5eb6a83d-e072-45a0-a8b1-4b9af13668b5",
+    "hidden": false,
+    "id": "TABLE_CONSTRAINTS",
+    "isMaterialized": false,
+    "name": "TABLE_CONSTRAINTS",
+    "oid": "537e8b1f-11ac-45f8-ac44-25d1192581bb",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

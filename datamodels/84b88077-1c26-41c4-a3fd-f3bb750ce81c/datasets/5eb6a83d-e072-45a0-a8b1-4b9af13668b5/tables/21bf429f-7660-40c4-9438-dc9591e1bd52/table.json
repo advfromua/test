@@ -1,0 +1,125 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "GRANTOR",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "GRANTOR",
+            "oid": "8785e6cb-77fb-451d-a793-7e6a86d28082",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "GRANTEE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "GRANTEE",
+            "oid": "3fefba5c-aa57-48af-9a0e-03b8dd25c132",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OBJECT_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OBJECT_CATALOG",
+            "oid": "96f2928f-f6e5-4fbc-aecf-317f76dc1780",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OBJECT_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OBJECT_SCHEMA",
+            "oid": "9f260f96-fbcf-4651-9106-d961785873b9",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OBJECT_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OBJECT_NAME",
+            "oid": "530c256b-bf62-4ebd-a45e-5f942cb2c635",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OBJECT_TYPE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OBJECT_TYPE",
+            "oid": "1190fefb-e2f5-4c18-9594-ae1bda4f5329",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "PRIVILEGE_TYPE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PRIVILEGE_TYPE",
+            "oid": "d1ebd81c-1b6d-4052-8c3e-686fa6f558b8",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_GRANTABLE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_GRANTABLE",
+            "oid": "3bb2b53c-c099-4d74-af77-2adefdbb5f9f",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "f0feb996-93e4-45b8-ae2a-b51a93e56aab",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        }
+    ],
+    "dataset": "5eb6a83d-e072-45a0-a8b1-4b9af13668b5",
+    "hidden": false,
+    "id": "USAGE_PRIVILEGES",
+    "isMaterialized": false,
+    "name": "USAGE_PRIVILEGES",
+    "oid": "21bf429f-7660-40c4-9438-dc9591e1bd52",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

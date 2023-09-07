@@ -1,0 +1,173 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "SCHEMA_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SCHEMA_NAME",
+            "oid": "74266f29-271e-464d-bae6-c76b2541bdcd",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "FILE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FILE_NAME",
+            "oid": "f73a96a3-a1ed-4aaa-9d3e-c1a019c97c4d",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_NAME",
+            "oid": "5cf9a7a9-1165-4ea7-9352-2cebfaca58a2",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "LAST_LOAD_TIME",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_LOAD_TIME",
+            "oid": "d1cc190a-4069-46c0-9b41-2ad1edaf6a31",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "STATUS",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STATUS",
+            "oid": "9350230b-d1cb-4573-b178-0eeeec4018b4",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ROW_COUNT",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ROW_COUNT",
+            "oid": "2563634a-f06f-4d1c-ab53-5216d40c7fe0",
+            "precision": 9,
+            "scale": 0,
+            "size": 9,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "ROW_PARSED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ROW_PARSED",
+            "oid": "7c0cd883-c828-4f1c-a84b-bd1f9511ad77",
+            "precision": 9,
+            "scale": 0,
+            "size": 9,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "FIRST_ERROR_MESSAGE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FIRST_ERROR_MESSAGE",
+            "oid": "14b7a0e1-88b5-4a31-b408-53428224b355",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "FIRST_ERROR_LINE_NUMBER",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "FIRST_ERROR_LINE_NUMBER",
+            "oid": "8c443b44-799c-4740-81d9-6b816e703282",
+            "precision": 9,
+            "scale": 0,
+            "size": 9,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "FIRST_ERROR_CHARACTER_POSITION",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "FIRST_ERROR_CHARACTER_POSITION",
+            "oid": "724868de-2ea9-4456-b4b5-7ec86e217c08",
+            "precision": 9,
+            "scale": 0,
+            "size": 9,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "FIRST_ERROR_COL_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FIRST_ERROR_COL_NAME",
+            "oid": "1cc0ab9c-838f-4672-990e-b64dd1024d23",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ERROR_COUNT",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ERROR_COUNT",
+            "oid": "abdec04c-2748-40ab-bd7d-922ce64be8d2",
+            "precision": 9,
+            "scale": 0,
+            "size": 9,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "ERROR_LIMIT",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ERROR_LIMIT",
+            "oid": "7916c46c-ecfb-47ce-8d28-a9ba4b0ff10e",
+            "precision": 9,
+            "scale": 0,
+            "size": 9,
+            "type": 0
+        }
+    ],
+    "dataset": "5eb6a83d-e072-45a0-a8b1-4b9af13668b5",
+    "hidden": false,
+    "id": "LOAD_HISTORY",
+    "isMaterialized": false,
+    "name": "LOAD_HISTORY",
+    "oid": "733f555a-a127-42bc-bb5c-47d5fd9007e0",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

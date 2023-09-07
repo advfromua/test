@@ -1,0 +1,161 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "CONSTRAINT_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONSTRAINT_CATALOG",
+            "oid": "8f8ea377-ed44-4777-9e42-dae098eda580",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CONSTRAINT_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONSTRAINT_SCHEMA",
+            "oid": "a4cdd680-6cd6-4fce-bcda-a3032acf8e5d",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CONSTRAINT_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONSTRAINT_NAME",
+            "oid": "3f547d1e-9201-4e16-ad25-b5c8420f1796",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "UNIQUE_CONSTRAINT_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "UNIQUE_CONSTRAINT_CATALOG",
+            "oid": "25373e66-653a-4dd3-b386-5fff6ed96ba8",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "UNIQUE_CONSTRAINT_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "UNIQUE_CONSTRAINT_SCHEMA",
+            "oid": "e170664e-57ee-49d6-947e-bba8e2ba3560",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "UNIQUE_CONSTRAINT_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "UNIQUE_CONSTRAINT_NAME",
+            "oid": "c07a7de9-af24-43fe-b733-0eb4c25e8c0c",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "MATCH_OPTION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "MATCH_OPTION",
+            "oid": "26ebcd6d-f0fc-4bed-ba71-99f25f313968",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "UPDATE_RULE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "UPDATE_RULE",
+            "oid": "6c585dba-9a0c-4a76-bc86-cbdd3573f095",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DELETE_RULE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DELETE_RULE",
+            "oid": "dc544584-9bee-4240-b754-8006a7052127",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "f900ac0c-e578-48c4-9420-d29ce160c543",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "ca9b6289-ce75-46d5-95ab-608f993826c3",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_ALTERED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_ALTERED",
+            "oid": "cd721f92-674e-49af-a52a-83a522c3d74d",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        }
+    ],
+    "dataset": "5eb6a83d-e072-45a0-a8b1-4b9af13668b5",
+    "hidden": false,
+    "id": "REFERENTIAL_CONSTRAINTS",
+    "isMaterialized": false,
+    "name": "REFERENTIAL_CONSTRAINTS",
+    "oid": "50ddfb65-e93b-4564-9820-a8491691df32",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

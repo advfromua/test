@@ -1,0 +1,149 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "NAME",
+            "oid": "782cb972-47d0-4391-8697-8dde236b69f2",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SCHEMA_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SCHEMA_NAME",
+            "oid": "829defb8-d560-4831-9b39-7c990ead2b34",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DATABASE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DATABASE_NAME",
+            "oid": "a4ce67cb-d40f-4267-80ca-d03ddcd7ce7e",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CLASS_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CLASS_NAME",
+            "oid": "33dc8232-206d-478a-826e-791a93497162",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CLASS_SCHEMA_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CLASS_SCHEMA_NAME",
+            "oid": "608dcffc-0eb0-4f0a-b254-25f79ccae193",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CLASS_DATABASE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CLASS_DATABASE_NAME",
+            "oid": "a39270c0-f44d-4a39-9747-974ed4ddf4a2",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "VERSION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "VERSION",
+            "oid": "74391911-7306-4e2d-91d2-be55d168a040",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OWNER",
+            "oid": "09332103-ccf5-4b92-b199-2cb15289e7ae",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OWNER_ROLE_TYPE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OWNER_ROLE_TYPE",
+            "oid": "1df3a393-0ac1-4f46-b94b-9f46a2707b7a",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "53714f69-c672-41e2-93bf-393aebed2274",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "6bd043e6-3274-4106-9c2f-47075ee6aef9",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "5eb6a83d-e072-45a0-a8b1-4b9af13668b5",
+    "hidden": false,
+    "id": "CLASS_INSTANCES",
+    "isMaterialized": false,
+    "name": "CLASS_INSTANCES",
+    "oid": "5578e2ee-fb6d-4421-b57c-5efb02e0deab",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,25 @@
+{
+    "buildDestination": {
+        "destination": "live"
+    },
+    "datasets": [
+        "./5eb6a83d-e072-45a0-a8b1-4b9af13668b5/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": null,
+    "modelStatistics": {
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "84b88077-1c26-41c4-a3fd-f3bb750ce81c",
+    "relationType": "direct",
+    "relations": "./relations.json",
+    "relationsTables": [
+    ],
+    "schemaId": null,
+    "title": "SNOWFLAKE",
+    "type": "live"
+}

@@ -1,0 +1,185 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "TABLE_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_CATALOG",
+            "oid": "8a0663ee-6aea-4c27-9daa-67d39c8033a0",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_SCHEMA",
+            "oid": "6bb556c8-e380-498b-8d83-d86963363656",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_NAME",
+            "oid": "87d0e4fe-0d6a-43ed-acfc-d8b139ab22cf",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_OWNER",
+            "oid": "6af501ce-f124-4251-8d64-2ff5121fe7ad",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "VIEW_DEFINITION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "VIEW_DEFINITION",
+            "oid": "f67e728a-a7ef-4289-9c50-34f89eb7cf48",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CHECK_OPTION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CHECK_OPTION",
+            "oid": "f88ebdec-70a4-48c5-be77-1af41f1e6470",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_UPDATABLE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_UPDATABLE",
+            "oid": "8d44ae84-7200-4d3d-9da8-db89539eb9d5",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "INSERTABLE_INTO",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "INSERTABLE_INTO",
+            "oid": "214d82a1-951a-4e3d-ae7a-f1fe3938cad5",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_SECURE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_SECURE",
+            "oid": "ea40e46b-0eaa-481c-aaba-2f00da8759be",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "70fec1ff-b792-49a5-a1df-8c1f7bbe97f1",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_ALTERED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_ALTERED",
+            "oid": "fbf4beb6-5071-4388-8609-1fd8797d5c43",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_DDL",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_DDL",
+            "oid": "81254fdd-35f4-4414-b3bb-50d1a3999a18",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_DDL_BY",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LAST_DDL_BY",
+            "oid": "1bdfe497-b6e2-465d-acbb-3575ed888be7",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "73a5b007-e960-459e-8bb3-940a728af073",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "5eb6a83d-e072-45a0-a8b1-4b9af13668b5",
+    "hidden": false,
+    "id": "VIEWS",
+    "isMaterialized": false,
+    "name": "VIEWS",
+    "oid": "2c365980-992a-4d64-8ada-e1e4f56859f6",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}
