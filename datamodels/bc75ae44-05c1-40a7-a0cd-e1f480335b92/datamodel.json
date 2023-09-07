@@ -1,0 +1,34 @@
+{
+    "buildDestination": {
+        "database": null,
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./17636cb2-865c-4eb4-9d99-a13df6853abb/dataset.json",
+        "./2a1d1f0c-21af-47fc-a4e5-de9bd2edaf46/dataset.json",
+        "./411be3b2-4e45-4142-bf30-0c0f1f31c94e/dataset.json",
+        "./525fdce1-1ea5-4878-8b13-60454a7f3644/dataset.json",
+        "./84c2733c-1b64-4e7c-9db7-5c070817ac22/dataset.json",
+        "./9b8586c7-46bd-43f4-b5dc-a83a75c2bde1/dataset.json",
+        "./adc7dc50-ff7d-4b54-a272-0b4f3827f1dd/dataset.json",
+        "./d1132648-70e1-4fe8-a42e-94dc43902cd5/dataset.json",
+        "./e890c519-6e2c-44f3-8a65-1a4a5df7ce59/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": "2023-09-07T16:05:49.305Z",
+    "modelStatistics": {
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": 0,
+        "recollectStatsInterval": 0
+    },
+    "oid": "bc75ae44-05c1-40a7-a0cd-e1f480335b92",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "relationsTables": [
+    ],
+    "schemaId": null,
+    "title": "Unique name",
+    "type": "extract"
+}
