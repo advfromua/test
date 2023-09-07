@@ -1,6 +1,6 @@
 {
     "createdByUser": true,
-    "oid": "f7c1eb3e-2c85-46e0-91d3-ba0e1d56bb04",
+    "oid": "871917ac-5f0d-45ba-a507-fd6b59e5ae03",
     "provider": "SnowflakeJDBC",
     "schema": "INFORMATION_SCHEMA",
     "uiParams": {

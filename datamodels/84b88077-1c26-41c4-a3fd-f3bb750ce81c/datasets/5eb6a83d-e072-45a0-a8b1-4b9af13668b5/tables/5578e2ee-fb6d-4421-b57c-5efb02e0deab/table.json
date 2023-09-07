@@ -136,6 +136,8 @@
             "type": 18
         }
     ],
+    "configOptions": {
+    },
     "dataset": "5eb6a83d-e072-45a0-a8b1-4b9af13668b5",
     "hidden": false,
     "id": "CLASS_INSTANCES",
